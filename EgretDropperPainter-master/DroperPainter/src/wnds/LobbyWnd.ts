@@ -1,4 +1,4 @@
-class LobbyWnd extends ABBaseWnd  {
+class LobbyWnd extends AbsWnd  {
 	public constructor() {
 		super();
 	}

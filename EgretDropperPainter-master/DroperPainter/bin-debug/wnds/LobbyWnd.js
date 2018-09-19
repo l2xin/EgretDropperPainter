@@ -20,6 +20,6 @@ var LobbyWnd = (function (_super) {
         _super.prototype.childrenCreated.call(this);
     };
     return LobbyWnd;
-}(ABBaseWnd));
+}(AbsWnd));
 __reflect(LobbyWnd.prototype, "LobbyWnd");
 //# sourceMappingURL=LobbyWnd.js.map

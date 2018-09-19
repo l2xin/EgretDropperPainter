@@ -8,12 +8,12 @@ var __extends = this && this.__extends || function __extends(t, e) {
 for (var i in e) e.hasOwnProperty(i) && (t[i] = e[i]);
 r.prototype = e.prototype, t.prototype = new r();
 };
-var ABBaseWnd = (function (_super) {
-    __extends(ABBaseWnd, _super);
-    function ABBaseWnd() {
+var AbsWnd = (function (_super) {
+    __extends(AbsWnd, _super);
+    function AbsWnd() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    return ABBaseWnd;
+    return AbsWnd;
 }(eui.Component));
-__reflect(ABBaseWnd.prototype, "ABBaseWnd");
-//# sourceMappingURL=IWnd.js.map
+__reflect(AbsWnd.prototype, "AbsWnd");
+//# sourceMappingURL=AbsWnd.js.map
