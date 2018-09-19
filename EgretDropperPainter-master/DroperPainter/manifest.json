@@ -10,10 +10,17 @@
 		"libs/modules/promise/promise.js"
 	],
 	"game": [
-		"bin-debug/AssetAdapter.js",
-		"bin-debug/LoadingUI.js",
+		"bin-debug/core/game/Singleton.js",
+		"bin-debug/wnds/IWnd.js",
+		"bin-debug/core/adapter/AssetAdapter.js",
+		"bin-debug/core/adapter/Platform.js",
+		"bin-debug/core/adapter/ThemeAdapter.js",
+		"bin-debug/core/game/SceneManager.js",
 		"bin-debug/Main.js",
-		"bin-debug/Platform.js",
-		"bin-debug/ThemeAdapter.js"
+		"bin-debug/core/game/UIManager.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/wnds/LobbyWnd.js",
+		"bin-debug/wnds/RankWnd.js",
+		"bin-debug/wnds/StartWnd.js"
 	]
 }

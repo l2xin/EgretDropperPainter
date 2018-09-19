@@ -1,0 +1,17 @@
+{
+    "165ef81f0dd": {
+        "path": "..\\resource\\wnds\\LobbyWnd.ts",
+        "class": "LobbyWnd",
+        "parentPath": ""
+    },
+    "165ef8518e0": {
+        "path": "..\\resource\\wnds\\RankWnd.ts",
+        "class": "RankWnd",
+        "parentPath": ""
+    },
+    "165ef86119a": {
+        "path": "..\\resource\\wnds\\StartWnd.ts",
+        "class": "StartWnd",
+        "parentPath": ""
+    }
+}
