@@ -51,13 +51,13 @@ class Main extends eui.UILayer {
         egret.registerImplementation("eui.IAssetAdapter", assetAdapter);
         egret.registerImplementation("eui.IThemeAdapter", new ThemeAdapter());
 
-
         this.runGame().catch(e => {
             console.log(e);
         })
     }
 
     private async runGame() {
+
         await this.loadResource()
         this.createGameScene();
         const result = await RES.getResAsync("description_json")
@@ -100,6 +100,8 @@ class Main extends eui.UILayer {
     protected createGameScene(): void {
         // 把this设置为场景管理器的根舞台
         //SceneManager.getInstance().setStage(this);
+
+        Singleton.getInstance(SceneManager).Init();
     }
 
 }

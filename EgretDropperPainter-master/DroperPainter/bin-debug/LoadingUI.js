@@ -48,19 +48,19 @@ var LoadingUI = (function (_super) {
         this.width = this.stage.stageWidth;
         this.height = this.stage.stageHeight;
         // 背景图
-        this.bgImg = new egret.Bitmap();
-        this.bgImg.texture = RES.getRes('loading_head_png');
+        this.bgImg = new eui.Image();
+        this.bgImg.source = ('resource/art/loading/loading_head.png');
         this.addChild(this.bgImg);
         // loading图标
-        this.loadImg = new egret.Bitmap();
-        this.loadImg.texture = RES.getRes('loading_quan_png');
+        this.loadImg = new eui.Image();
+        this.loadImg.source = ('resource/art/loading/loading_quan.png');
         this.loadImg.anchorOffsetX = this.loadImg.width / 2;
         this.loadImg.anchorOffsetY = this.loadImg.height / 2;
         this.loadImg.x = this.width / 2;
         this.loadImg.y = this.height / 2;
         this.addChild(this.loadImg);
         // 文本
-        this.textField = new egret.TextField();
+        this.textField = new eui.Label();
         this.addChild(this.textField);
         this.textField.width = 480;
         this.textField.height = 20;

@@ -18,35 +18,13 @@ var Singleton = (function () {
             Singleton.classValues.push(this);
         }
     }
-    /**
-     * 获取实例的静态方法实例
-     * @return
-     *
-     */
-    Singleton.getInstance = function () {
-        if (!this.instance) {
-            this.instance = new Singleton();
-        }
-        return this.instance;
-    };
-    /**
-     * 销毁方法。事实上单例是很少进行销毁的
-     */
     Singleton.prototype.destroy = function (o) {
         if (o === void 0) { o = null; }
         this.onDestroy();
         Singleton.removeInstance(this["constructor"]);
     };
-    /**
-     * 子类重写的方法
-     */
     Singleton.prototype.onDestroy = function () {
     };
-    /**
-     * 删除单例的实例（不对单例本身做任何的销毁，只是删除他的引用）
-     * @param clazz 单例的Class对象
-     *
-     */
     Singleton.removeInstance = function (clazz) {
         var index = this.classKeys.indexOf(clazz);
         if (index == -1) {
@@ -55,11 +33,6 @@ var Singleton = (function () {
         this.classKeys.splice(index, 1);
         this.classValues.splice(index, 1);
     };
-    /**
-     * 是否存放有这个构造函数
-     * @param clazz 构造函数
-     * @return {boolean}
-     */
     Singleton.getFunValue = function (clazz) {
         var funs = this.classKeys;
         var length = funs.length;
@@ -75,7 +48,7 @@ var Singleton = (function () {
      * @return
      *
      */
-    Singleton.getInstanceOrCreate = function (clazz) {
+    Singleton.getInstance = function (clazz) {
         var obj = this.getFunValue(clazz);
         if (obj) {
             return obj;

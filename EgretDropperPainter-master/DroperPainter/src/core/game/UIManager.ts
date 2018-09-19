@@ -1,5 +1,5 @@
 
-class UIManager extends Singleton {
+class UIManager{
 
     private m_uiRootStage:egret.DisplayObjectContainer;
 

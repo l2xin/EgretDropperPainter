@@ -20,6 +20,6 @@ var LobbyWnd = (function (_super) {
         _super.prototype.childrenCreated.call(this);
     };
     return LobbyWnd;
-}(AbsWnd));
-__reflect(LobbyWnd.prototype, "LobbyWnd");
+}(eui.Component));
+__reflect(LobbyWnd.prototype, "LobbyWnd", ["eui.UIComponent", "egret.DisplayObject"]);
 //# sourceMappingURL=LobbyWnd.js.map

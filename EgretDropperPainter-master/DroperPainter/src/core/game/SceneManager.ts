@@ -1,7 +1,7 @@
 /**
  * 场景管理类
  */
-class SceneManager extends Singleton {
+class SceneManager {
     private _sceneRootStage:egret.DisplayObjectContainer // 设置所有场景所在的舞台(根)
 
     public setStage(sceneRootStage:egret.DisplayObjectContainer) {
@@ -15,6 +15,11 @@ class SceneManager extends Singleton {
 
 	private Dispose()
 	{
-		SceneManager.getInstance().destroy();
+        //Singleton.getInstance(SceneManager).Init();
 	}
+
+    public Init()
+    {
+        console.log("SceneManager.Init");
+    }
 }
