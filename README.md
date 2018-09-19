@@ -1,2 +1,0 @@
-# EgretDropperPainter
-Learning Egret DropperPainter
