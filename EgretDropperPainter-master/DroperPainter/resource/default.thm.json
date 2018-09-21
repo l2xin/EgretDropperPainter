@@ -15,7 +15,9 @@
 		"eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml",
 		"LobbyWnd": "resource/wnds/LobbyWnd.exml",
 		"RankWnd": "resource/wnds/RankWnd.exml",
-		"StartWnd": "resource/wnds/StartWnd.exml"
+		"StartWnd": "resource/wnds/StartWnd.exml",
+		"MainUI": "resource/ui/main/MainUI.exml",
+		"MainScene": "resource/eui_skins/MainScene.exml"
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
@@ -32,9 +34,8 @@
 		"resource/eui_skins/ToggleSwitchSkin.exml",
 		"resource/eui_skins/VScrollBarSkin.exml",
 		"resource/eui_skins/VSliderSkin.exml",
-		"resource/wnds/LobbyWnd.exml",
-		"resource/wnds/RankWnd.exml",
-		"resource/wnds/StartWnd.exml"
+		"resource/ui/main/MainUISkin.exml",
+		"resource/ui/scene/MainSceneSkin.exml"
 	],
 	"path": "resource/default.thm.json"
 }

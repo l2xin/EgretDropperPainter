@@ -49,11 +49,11 @@ var LoadingUI = (function (_super) {
         this.height = this.stage.stageHeight;
         // 背景图
         this.bgImg = new eui.Image();
-        this.bgImg.source = ('resource/art/loading/loading_head.png');
+        //this.bgImg.source = ('resource/art/loading/loading_head.png');
         this.addChild(this.bgImg);
         // loading图标
         this.loadImg = new eui.Image();
-        this.loadImg.source = ('resource/art/loading/loading_quan.png');
+        //this.loadImg.source = ('resource/art/loading/loading_quan.png');
         this.loadImg.anchorOffsetX = this.loadImg.width / 2;
         this.loadImg.anchorOffsetY = this.loadImg.height / 2;
         this.loadImg.x = this.width / 2;

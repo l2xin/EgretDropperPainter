@@ -166,8 +166,8 @@ var Main = (function (_super) {
      */
     Main.prototype.createGameScene = function () {
         // 把this设置为场景管理器的根舞台
-        //SceneManager.getInstance().setStage(this);
-        Singleton.getInstance(SceneManager).Init();
+        this.addChild(GameLayerManager.getInstance());
+        SceneManager.getInstance().init(GameLayerManager.getInstance().sceneLayer);
     };
     return Main;
 }(eui.UILayer));

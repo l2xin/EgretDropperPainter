@@ -1,6 +1,7 @@
-class RankWnd extends eui.Component implements  eui.UIComponent {
+class MainUI extends eui.Component implements  eui.UIComponent {
 	public constructor() {
 		super();
+		this.skinName = "resource/ui/main/MainUISkin.exml";
 	}
 
 	protected partAdded(partName:string,instance:any):void

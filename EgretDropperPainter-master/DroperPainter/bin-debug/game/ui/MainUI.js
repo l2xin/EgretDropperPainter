@@ -8,18 +8,20 @@ var __extends = this && this.__extends || function __extends(t, e) {
 for (var i in e) e.hasOwnProperty(i) && (t[i] = e[i]);
 r.prototype = e.prototype, t.prototype = new r();
 };
-var StartWnd = (function (_super) {
-    __extends(StartWnd, _super);
-    function StartWnd() {
-        return _super.call(this) || this;
+var MainUI = (function (_super) {
+    __extends(MainUI, _super);
+    function MainUI() {
+        var _this = _super.call(this) || this;
+        _this.skinName = "resource/ui/main/MainUISkin.exml";
+        return _this;
     }
-    StartWnd.prototype.partAdded = function (partName, instance) {
+    MainUI.prototype.partAdded = function (partName, instance) {
         _super.prototype.partAdded.call(this, partName, instance);
     };
-    StartWnd.prototype.childrenCreated = function () {
+    MainUI.prototype.childrenCreated = function () {
         _super.prototype.childrenCreated.call(this);
     };
-    return StartWnd;
+    return MainUI;
 }(eui.Component));
-__reflect(StartWnd.prototype, "StartWnd", ["eui.UIComponent", "egret.DisplayObject"]);
-//# sourceMappingURL=StartWnd.js.map
+__reflect(MainUI.prototype, "MainUI", ["eui.UIComponent", "egret.DisplayObject"]);
+//# sourceMappingURL=MainUI.js.map

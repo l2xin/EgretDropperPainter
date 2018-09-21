@@ -13,5 +13,15 @@
         "path": "..\\resource\\wnds\\StartWnd.ts",
         "class": "StartWnd",
         "parentPath": ""
+    },
+    "165f486e5e8": {
+        "path": "..\\resource\\ui\\main\\MainUI.ts",
+        "class": "MainUI",
+        "parentPath": ""
+    },
+    "165f48ef985": {
+        "path": "..\\resource\\ui\\scene\\MainScene.ts",
+        "class": "MainScene",
+        "parentPath": ""
     }
 }
