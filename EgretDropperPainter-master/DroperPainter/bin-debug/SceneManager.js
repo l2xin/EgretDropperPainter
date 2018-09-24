@@ -32,4 +32,3 @@ var SceneManager = (function () {
     return SceneManager;
 }());
 __reflect(SceneManager.prototype, "SceneManager");
-//# sourceMappingURL=SceneManager.js.map

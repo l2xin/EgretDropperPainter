@@ -40,6 +40,9 @@ class GameLayerManager extends eui.UILayer{
     //初始化场景类
     public init():void {
 
+        this.width = 1136;
+        this.height = 640;
+
         this.touchThrough = true;
         this.sceneLayer.touchThrough = true;
         this.mainLayer.touchThrough = true;

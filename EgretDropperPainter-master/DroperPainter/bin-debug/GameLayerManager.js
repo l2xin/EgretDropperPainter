@@ -61,4 +61,3 @@ var GameLayerManager = (function (_super) {
     return GameLayerManager;
 }(eui.UILayer));
 __reflect(GameLayerManager.prototype, "GameLayerManager");
-//# sourceMappingURL=GameLayerManager.js.map

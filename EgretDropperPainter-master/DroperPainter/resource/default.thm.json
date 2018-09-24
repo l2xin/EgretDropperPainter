@@ -34,6 +34,7 @@
 		"resource/eui_skins/ToggleSwitchSkin.exml",
 		"resource/eui_skins/VScrollBarSkin.exml",
 		"resource/eui_skins/VSliderSkin.exml",
+		"resource/ui/buttons/UIMain_ButtonLeftSkin.exml",
 		"resource/ui/main/MainUISkin.exml",
 		"resource/ui/scene/MainSceneSkin.exml"
 	],

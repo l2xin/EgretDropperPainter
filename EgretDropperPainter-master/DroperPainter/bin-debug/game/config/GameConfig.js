@@ -29,4 +29,3 @@ var GameConfig;
         bigSize: 36 //大型字体大小
     };
 })(GameConfig || (GameConfig = {}));
-//# sourceMappingURL=GameConfig.js.map

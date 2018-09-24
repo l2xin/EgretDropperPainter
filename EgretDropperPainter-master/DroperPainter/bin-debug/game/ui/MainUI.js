@@ -24,4 +24,3 @@ var MainUI = (function (_super) {
     return MainUI;
 }(eui.Component));
 __reflect(MainUI.prototype, "MainUI", ["eui.UIComponent", "egret.DisplayObject"]);
-//# sourceMappingURL=MainUI.js.map

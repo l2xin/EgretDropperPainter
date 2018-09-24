@@ -4,17 +4,24 @@ var __reflect = (this && this.__reflect) || function (p, c, t) {
 var UIManager = (function () {
     function UIManager() {
     }
-    // 设置所有UI所在的舞台(根)
-    UIManager.prototype.setRootStage = function (uiRootStage) {
-        this.m_uiRootStage = uiRootStage;
+    UIManager.getInstance = function () {
+        if (this.s_instance == null) {
+            this.s_instance = new UIManager();
+        }
+        return this.s_instance;
+    };
+    UIManager.prototype.init = function (sceneRootStage) {
+        this._uiRoot = sceneRootStage;
+        this.openWnd(GameConfig.SceneName.MainScene);
     };
     UIManager.prototype.closeAllWnd = function () {
     };
     UIManager.prototype.openWnd = function (wndName) {
+        this._mainUI = new MainUI();
+        this._uiRoot.addChild(this._mainUI);
     };
     UIManager.prototype.closeWnd = function (wndName) {
     };
     return UIManager;
 }());
 __reflect(UIManager.prototype, "UIManager");
-//# sourceMappingURL=UIManager.js.map

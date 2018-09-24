@@ -23,5 +23,15 @@
         "path": "..\\resource\\ui\\scene\\MainScene.ts",
         "class": "MainScene",
         "parentPath": ""
+    },
+    "1660c0b3995": {
+        "path": "../resource/ui/buttons/UIMain_ButtonLeftSkin.ts",
+        "class": "UIMain_ButtonLeftSkin",
+        "parentPath": ""
+    },
+    "1660c0c46fc": {
+        "path": "../resource/ui/buttons/Test.ts",
+        "class": "Test",
+        "parentPath": ""
     }
 }

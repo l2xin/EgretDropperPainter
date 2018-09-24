@@ -100,9 +100,17 @@ class Main extends eui.UILayer {
     protected createGameScene(): void {
         // 把this设置为场景管理器的根舞台
 
+        this.width = 1136;
+        this.height = 640;
+        this.stage.width = 1136;
+        this.stage.height = 640;
+
+        console.log(this.height + " " + this.width);
+
         this.addChild(GameLayerManager.getInstance());
         
         SceneManager.getInstance().init(GameLayerManager.getInstance().sceneLayer);
+        UIManager.getInstance().init(GameLayerManager.getInstance().mainLayer);
     }
 
 }

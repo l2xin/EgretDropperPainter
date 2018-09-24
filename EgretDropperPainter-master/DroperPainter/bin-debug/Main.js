@@ -166,10 +166,15 @@ var Main = (function (_super) {
      */
     Main.prototype.createGameScene = function () {
         // 把this设置为场景管理器的根舞台
+        this.width = 640;
+        this.height = 1136;
+        this.stage.width = 640;
+        this.stage.height = 1136;
+        console.log(this.height + " " + this.width);
         this.addChild(GameLayerManager.getInstance());
         SceneManager.getInstance().init(GameLayerManager.getInstance().sceneLayer);
+        UIManager.getInstance().init(GameLayerManager.getInstance().mainLayer);
     };
     return Main;
 }(eui.UILayer));
 __reflect(Main.prototype, "Main");
-//# sourceMappingURL=Main.js.map
