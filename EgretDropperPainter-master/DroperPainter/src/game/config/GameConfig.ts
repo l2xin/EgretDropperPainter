@@ -9,6 +9,13 @@ module GameConfig
 		MainScene: "MainScene",	//主场景
 	}
 
+    export enum BottleEnum
+	{
+		BLACK = 0,	//黑
+		RED = 1,	//红
+	}
+
+
     //全局字体颜色表--可以扩展
     export var TextColors = 
 	{

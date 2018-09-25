@@ -44,6 +44,8 @@ var GameLayerManager = (function (_super) {
     };
     //初始化场景类
     GameLayerManager.prototype.init = function () {
+        this.width = 1136;
+        this.height = 640;
         this.touchThrough = true;
         this.sceneLayer.touchThrough = true;
         this.mainLayer.touchThrough = true;
