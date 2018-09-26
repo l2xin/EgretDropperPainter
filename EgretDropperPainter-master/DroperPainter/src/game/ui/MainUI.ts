@@ -7,7 +7,7 @@ class MainUI extends eui.Component implements  eui.UIComponent
 	private m_buttonBottle1:eui.Button;	//红色瓶子
 
 	private m_imageCavas:eui.Image;		//画布蒙版
-	private m_imageDroper:eui.Image;	//吸管
+	private m_groupDroper:eui.Group;	//吸管
 
 	private m_shapeCavas:egret.Shape;
 	
@@ -87,8 +87,8 @@ class MainUI extends eui.Component implements  eui.UIComponent
          shape.graphics.endFill();
 		 shape.mask = this.m_imageCavas;
 
-		 this.m_imageDroper.x = x;
-		 this.m_imageDroper.y = y;
+		 this.m_groupDroper.x = x;
+		 this.m_groupDroper.y = y;
     }
 	
 }

@@ -12,6 +12,7 @@
 	"game": [
 		"bin-debug/SceneManager.js",
 		"bin-debug/AssetAdapter.js",
+		"bin-debug/GameManager.js",
 		"bin-debug/LoadingUI.js",
 		"bin-debug/Main.js",
 		"bin-debug/Platform.js",

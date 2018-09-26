@@ -4,6 +4,11 @@ var GameConfig;
     GameConfig.SceneName = {
         MainScene: "MainScene",
     };
+    var BottleEnum;
+    (function (BottleEnum) {
+        BottleEnum[BottleEnum["BLACK"] = 0] = "BLACK";
+        BottleEnum[BottleEnum["RED"] = 1] = "RED";
+    })(BottleEnum = GameConfig.BottleEnum || (GameConfig.BottleEnum = {}));
     //全局字体颜色表--可以扩展
     GameConfig.TextColors = {
         white: 0xFFFFFF,
