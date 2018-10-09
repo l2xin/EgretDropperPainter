@@ -7,10 +7,25 @@
 		<e:Label id="m_labelCurScore" text="本次得分：99" fontFamily="Arial" size="22" italic="true" textColor="0x1e1919" horizontalCenter="0" y="93"/>
 		<e:Button id="m_buttonSubmit" label="提交" anchorOffsetX="0" width="84.85" anchorOffsetY="0" height="45.45" scaleX="1" scaleY="1" y="133" horizontalCenter="0"/>
 	</e:Group>
-	<e:Group id="m_groupTiaoseban" width="341.34" height="315.99" anchorOffsetX="0" anchorOffsetY="0" x="769.66" y="304.01">
+	<e:Group id="m_groupCavas" width="661.33" height="524" x="72.33" y="50.67" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="m_imageCavas" width="686.06" height="543.69" x="-16.33" y="-7.669999999999995" source="painter_huabu_png" alpha="0.01" scaleX="1" scaleY="1"/>
+		<e:Button id="m_buttonCavas" label="" x="-14.329999999999998" y="-10.669999999999995" width="686.06" height="543.69" alpha="1" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="painter_huabu_png" source.down="painter_huabu_png" source.disabled="painter_huabu_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Group id="m_groupDroper" width="200" height="200" anchorOffsetX="100" anchorOffsetY="100" touchEnabled="false" scaleX="1" scaleY="1" x="331" y="262">
+		<e:Image id="m_imageDropFillRed" width="73" height="10" anchorOffsetX="0" anchorOffsetY="5" source="painter_hong_png" rotation="39" scaleX="1" scaleY="1" bottom="100" right="102"/>
+		<e:Image id="m_imageDroper" width="120" height="120" source="painter_diguan_png" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" scaleX="1" scaleY="1" x="-12" y="-11"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="m_groupTiaoseban" width="341.34" height="315.99" anchorOffsetX="0" anchorOffsetY="0" x="769.66" y="304.01" locked="true">
 		<e:Image width="348.79" height="283.64" x="-2.7199999999999136" y="15.990000000000009" anchorOffsetX="0" anchorOffsetY="0" source="painter_tiaosepan_png" scaleX="1" scaleY="1"/>
 		<e:Group id="m_groupBottle0" width="80" height="84" x="65" y="48" anchorOffsetX="0" anchorOffsetY="0">
-			<e:Image width="69.76" height="53.27" anchorOffsetX="0" anchorOffsetY="0" id="m_imageBottle0" source="painter_hei_png" scaleX="1" scaleY="1" y="26" x="4"/>
+			<e:Image width="69.76" height="53.27" anchorOffsetX="0" anchorOffsetY="0" id="m_imageBottle0" source="painter_hei_png" scaleX="1" scaleY="1" x="4" bottom="5"/>
 			<e:Button id="m_buttonBottle0" label="" width="80" height="88" y="0" x="0">
 				<e:skinName>
 				<e:Skin states="up,down,disabled">
@@ -21,7 +36,7 @@
 			</e:Button>
 		</e:Group>
 		<e:Group id="m_groupBottle1" width="80" height="84" x="102" y="153" anchorOffsetX="0" anchorOffsetY="0">
-			<e:Image id="m_imageBottle1" width="69.76" height="53.27" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="painter_hong_png" x="4" y="26"/>
+			<e:Image id="m_imageBottle1" width="69.76" height="52" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="painter_hong_png" x="4" bottom="5"/>
 			<e:Button id="m_buttonBottle1" label="" width="80" height="88" x="0" y="0">
 			<e:skinName>
 				<e:Skin states="up,down,disabled">
@@ -30,21 +45,6 @@
 				</e:Skin>
 			</e:skinName>
 			</e:Button>
-		</e:Group>
-	</e:Group>
-	<e:Group id="m_groupCavas" width="661.33" height="524" x="72.33" y="50.67" anchorOffsetX="0" anchorOffsetY="0">
-		<e:Image id="m_imageCavas" width="686.06" height="543.69" x="-16.33" y="-7.669999999999995" source="painter_huabu_png" alpha="0.01" scaleX="1" scaleY="1"/>
-		<e:Button id="m_buttonCavas" label="" x="-14.329999999999998" y="-10.669999999999995" width="686.06" height="543.69" alpha="1" scaleX="1" scaleY="1">
-			<e:skinName>
-			<e:Skin states="up,down,disabled">
-				<e:Image width="100%" height="100%" source="painter_huabu_png" source.down="painter_huabu_png" source.disabled="painter_huabu_png"/>
-				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
-			</e:Skin>
-			</e:skinName>
-		</e:Button>
-		<e:Group id="m_groupDroper" width="200" height="200" anchorOffsetX="100" anchorOffsetY="100" touchEnabled="false" scaleX="1" scaleY="1" x="331" y="262">
-			<e:Image id="m_imageDropFillRed" width="73" height="10" anchorOffsetX="73" anchorOffsetY="10" source="painter_hong_png" rotation="39" scaleX="1" scaleY="1" x="94" y="102"/>
-			<e:Image id="m_imageDroper" width="120" height="120" source="painter_diguan_png" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" scaleX="1" scaleY="1" x="-12" y="-11"/>
 		</e:Group>
 	</e:Group>
 </e:Skin>

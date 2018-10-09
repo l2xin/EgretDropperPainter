@@ -1,37 +1,40 @@
 {
-    "165ef81f0dd": {
-        "path": "..\\resource\\wnds\\LobbyWnd.ts",
-        "class": "LobbyWnd",
-        "parentPath": ""
-    },
-    "165ef8518e0": {
-        "path": "..\\resource\\wnds\\RankWnd.ts",
-        "class": "RankWnd",
-        "parentPath": ""
-    },
-    "165ef86119a": {
-        "path": "..\\resource\\wnds\\StartWnd.ts",
-        "class": "StartWnd",
-        "parentPath": ""
-    },
-    "165f486e5e8": {
-        "path": "..\\resource\\ui\\main\\MainUI.ts",
-        "class": "MainUI",
-        "parentPath": ""
-    },
-    "165f48ef985": {
-        "path": "..\\resource\\ui\\scene\\MainScene.ts",
-        "class": "MainScene",
-        "parentPath": ""
-    },
-    "1660c0b3995": {
-        "path": "../resource/ui/buttons/UIMain_ButtonLeftSkin.ts",
-        "class": "UIMain_ButtonLeftSkin",
-        "parentPath": ""
-    },
-    "1660c0c46fc": {
-        "path": "../resource/ui/buttons/Test.ts",
-        "class": "Test",
-        "parentPath": ""
-    }
+  "165ef81f0dd": {
+    "path": "..\\resource\\wnds\\LobbyWnd.ts",
+    "class": "LobbyWnd",
+    "parentPath": ""
+  },
+  "165ef8518e0": {
+    "path": "..\\resource\\wnds\\RankWnd.ts",
+    "class": "RankWnd",
+    "parentPath": ""
+  },
+  "165ef86119a": {
+    "path": "..\\resource\\wnds\\StartWnd.ts",
+    "class": "StartWnd",
+    "parentPath": ""
+  },
+  "165f486e5e8": {
+    "path": "..\\resource\\ui\\main\\MainUI.ts",
+    "class": "MainUI",
+    "parentPath": ""
+  },
+  "165f48ef985": {
+    "path": "..\\resource\\ui\\scene\\MainScene.ts",
+    "class": "MainScene",
+    "parentPath": ""
+  },
+  "1660c0b3995": {
+    "path": "../resource/ui/buttons/UIMain_ButtonLeftSkin.ts",
+    "class": "UIMain_ButtonLeftSkin",
+    "parentPath": ""
+  },
+  "1660c0c46fc": {
+    "path": "../resource/ui/buttons/Test.ts",
+    "class": "Test",
+    "parentPath": ""
+  },
+  "global": {
+    "globalAutoLayerMarkEnable": true
+  }
 }
